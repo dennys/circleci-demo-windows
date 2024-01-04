@@ -1,7 +1,8 @@
 repo_name: dennys/circleci-demo-windows
 report_id: d70f060f748d72917850b4be72626e32
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T11:51:42+00:00'
+timestamp: '2024-01-04T14:53:16+00:00'
 requested_by: dennys
 provider: github
 branch: master
@@ -17,7 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: NotepadTest/NotepadTest.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/NotepadTest.csproj
   detection_source: NotepadTest/NotepadTest.csproj
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/dennys/circleci-demo-windows
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -40,6 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/rapidoc-min.js
   detection_source: rapidoc-min.js
   last_updated_by: Dennys Hsieh
   last_updated_on: 2023-10-01 23:20:41.000000000 Z
@@ -53,6 +56,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -67,8 +71,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: HelloWorld/circleci-demo-windows.csproj
-  detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/HelloWorld/circleci-demo-windows.csproj
+  detection_source: HelloWorld/circleci-demo-windows.csproj
   last_updated_by: teesloane
   last_updated_on: 2019-06-27 14:43:35.000000000 Z
 - name: ASP.NET Core
@@ -82,8 +86,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: HelloWorld/circleci-demo-windows.csproj
-  detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/HelloWorld/circleci-demo-windows.csproj
+  detection_source: HelloWorld/circleci-demo-windows.csproj
   last_updated_by: teesloane
   last_updated_on: 2019-06-27 14:43:35.000000000 Z
 - name: Castle Core
@@ -94,6 +98,7 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/20916/default_6d17162c9963bc83521ee29cf394f349c95173f3.png
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -105,6 +110,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -116,6 +122,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dennys/circleci-demo-windows
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -125,6 +132,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -137,6 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -149,6 +158,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/HelloWorld/circleci-demo-windows.sln
   detection_source: HelloWorld/circleci-demo-windows.sln
   last_updated_by: teesloane
   last_updated_on: 2019-06-27 14:43:35.000000000 Z
@@ -161,7 +171,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
-  detection_source_url: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -174,7 +184,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14250/default_64ba9b2f437d0b8cef575c2a3c5a7612d94c3d66.png
-  detection_source_url: HelloWorld/circleci-demo-windows.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/HelloWorld/circleci-demo-windows.csproj
   detection_source: HelloWorld/circleci-demo-windows.csproj
   last_updated_by: teesloane
   last_updated_on: 2019-06-28 17:08:22.000000000 Z
@@ -188,7 +198,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: NotepadTest/packages.config
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -202,13 +212,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: NotepadTest/packages.config
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
@@ -224,7 +240,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12990/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
-  detection_source_url: NotepadTest/packages.config
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -239,7 +255,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12976/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
-  detection_source_url: NotepadTest/packages.config
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/NotepadTest/packages.config
   detection_source: NotepadTest/packages.config
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
@@ -253,7 +269,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
-  detection_source_url: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
+  detection_source_url: https://github.com/dennys/circleci-demo-windows/blob/master/WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   detection_source: WebBrowserTestsSample/tests/WebBrowserTests/WebBrowserTests.csproj
   last_updated_by: Ricardo Linck
   last_updated_on: 2021-02-02 10:02:31.000000000 Z
